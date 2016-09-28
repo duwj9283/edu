@@ -8,10 +8,6 @@ $application->registerModules(array(
         'className' => 'Cloud\Frontend\Module',
         'path' => __DIR__ . '/../apps/frontend/Module.php'
     ),
-	'backend' => array(
-		'className' => 'Cloud\Backend\Module',
-		'path' => __DIR__ . '/../apps/backend/Module.php'
-	),
 	'live' => array(
 		'className' => 'Cloud\Live\Module',
 		//'path' => __DIR__ . '/../apps/aa/Module.php'
