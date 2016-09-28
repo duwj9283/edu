@@ -1,0 +1,96 @@
+.scale {
+    width: 100%;
+    height: 42px;
+    background: #DCD8C9;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.dragdealer {
+    position: relative;
+    background: #DCD8C9;
+    font-family: "Microsoft YaHei";
+}
+.scale-in {
+    height: 42px;
+    background: #BBB192;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.scale-bar {
+    width: 46px;
+    height: 42px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 0;
+    cursor: move !important;
+    background: #fff url("../images/rt.png") no-repeat center;
+    z-index: 3;
+}
+.scale-reg-bar {
+    width: 46px;
+    height: 42px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 0;
+    cursor: move !important;
+    background: #fff url("../images/rt.png") no-repeat center;
+    z-index: 3;
+}
+.dragdealer .handle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.scale-text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    background: transparent;
+    color: #888;
+    line-height: 42px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.disabled {
+    cursor: default;
+    background: #fff url("../images/yes.png") no-repeat center !important;
+}
+.dragdealer .handle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.dragdealer .disabled {
+    background: #898989;
+}
+.textin-none {
+    color: #fff;
+    background: transparent;
+    -webkit-text-fill-color: inherit;
+}
+
+.scale-textin {
+    background: -webkit-gradient(linear,left top,right top,color-stop(0,#666),color-stop(.4,#666),color-stop(.5,#fff),color-stop(.6,#666),color-stop(1,#666));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slidetounlock 3s infinite;
+    -webkit-animation: slidetounlock 3s infinite;
+    -webkit-text-size-adjust: none;
+    display: inline-block;
+    width: 100%;
+}
+@keyframes slidetounlock{
+    0%{background-position:-200px 0}100%{background-position:200px 0}
+}
+@-webkit-keyframes slidetounlock{
+    0%{background-position:-200px 0}100%{background-position:200px 0}
+}

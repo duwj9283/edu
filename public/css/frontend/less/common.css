@@ -1,0 +1,17 @@
+
+.w970 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 970px;
+}
+.w1200 {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1200px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "live",
+  "version": "0.0.1",
+  "description": "socket.io app",
+  "dependencies": {
+    "express": "*",
+    "mysql": "*",
+    "socket.io": "*",
+    "async": "*"
+  }
+}

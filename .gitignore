@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+caches/
+*.log
+htdocs
+webgrind
+lte
+node_modules/
+test.*
+upload/

@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+/*当前位置*/
+.breadcrumbBar{ background: #fff; box-shadow: 0 2px 2px 2px #eee;}
+.breadcrumb{ margin-bottom: 0; padding: 20px 0; background: #fff; color: #333;}
+.breadcrumb a{ color: #333;}
+#article{padding-top:20px; padding-bottom: 20px;}
+.fa-type{ width:25px; height:25px; vertical-align:middle; background:url(/img/frontend/less2/type_icon.png) no-repeat -100px -100px; display:inline-block; margin-right:5px;}
+.fa-video{ background-position:0 -33px;}
+.fa-music{ background-position:0 -63px;}
+.fa-pic{ background-position:0 -93px;}
+.fa-doc{ background-position:0 -125px; margin-right:3px;}
+.unknow{ background:url(/img/frontend/less2/unknow.png) no-repeat center 200px; height:500px; padding:300px 0 0; text-align:center; font-size:20px;}
+.preview .operate{margin:15px 0 0; height:16px; text-align: right; line-height:16px;}
+.preview .operate a{margin-left:20px;}
+.preview .operate .icon{ display: inline-block; width: 20px; height:16px; vertical-align: top;background:url(/img/frontend/less2/operate_icon_1.png) no-repeat 0 0;}
+.preview .operate .icon-down{ background-position:-76px 0;}
+.preview .operate .icon-collect{ background-position:-149px 0;}
+.preview .operate .icon-like{ background-position:-193px 0;}
+.preview .operate .active .icon-collect{ background-position: -170px 0}
+.preview .operate .active .icon-like{ background-position:-214px 0;}
+.preview{ color:#515567; margin-bottom:30px;}
+.previewLeft{ width:730px; float:left;}
+.previewRight{ overflow:hidden;}
+.previewRight{ padding:20px 35px;}
+.preview h1{ font-size:20px; line-height:1.5; margin-bottom:10px;}
+.preview .list{ font-size:14px; line-height:1.8;}
+.preview .list .about{ overflow:hidden;word-break: break-all;}
+.ppt-wrap{ border:1px solid #ddd;}
+.ppt-wrap .ppt-con{ position: relative; background-color: #fff;}
+.ppt-wrap .ppt-con .pre,.ppt-wrap .ppt-con .next{ position: absolute; width:50%; top: 0; bottom:0;}
+.ppt-wrap .ppt-con .pre{ left: 0;}
+.ppt-wrap .ppt-con .next{ right:0;}
+.ppt-wrap .ppt-con .icon{display: none; position: absolute; width:20px; height: 15px; top: 50%; margin-top: -8px;}
+.ppt-wrap .ppt-con .pre .icon{left: 20px; background-position: -30px 0; }
+.ppt-wrap .ppt-con .next .icon{right:20px; background-position: -30px -30px;}
+.ppt-wrap .ppt-con .img{display: none; max-width: 100%; height: auto; margin:0 auto;}
+.ppt-wrap .ppt-bar{ height:38px; padding-top: 5px; background-color: #eee; border-top:1px solid #ddd; text-align: center;}
+.ppt-wrap .ppt-bar span{ display: inline-block; vertical-align: middle;}
+.ppt-wrap .ppt-bar em{ font-style: normal;}
+.ppt-wrap .ppt-bar input{ width: 38px; border:1px solid #ddd; text-align: center;}
+.ppt-wrap .icon{background-image: url(/img/frontend/web/ppticon.png); background-position: 0 0; background-repeat: no-repeat; }
+.ppt-wrap .ppt-bar .pre,.ppt-wrap .ppt-bar .next{display:inline-block; vertical-align:middle;width:24px; height:24px;background-image: url(/img/frontend/web/ppticon.png); background-position: 0 0; background-repeat: no-repeat;  border:1px solid #eee;}
+.ppt-wrap .ppt-bar .pre{margin-right:10px; background-position: 0 4px;}
+.ppt-wrap .ppt-bar .pre:hover{ border-color: #999 #999 #c8c8c8 #c8c8c8; background-position: -30px 4px;}
+.ppt-wrap .ppt-bar .next{margin-left: 10px; background-position: 0 -26px;}
+.ppt-wrap .ppt-bar .next:hover{ border-color: #999 #999 #c8c8c8 #c8c8c8;background-position: -30px -26px;}
+.ppt-wrap .loading{width:100%; height: 300px; background:url(/js/frontend/less2/layer/skin/default/loading-2.gif) no-repeat center;}
+.ppt-wrap .to-left{cursor:url('/img/frontend/web/toleft.ico'),auto; }
+.ppt-wrap .to-right{cursor:url('/img/frontend/web/toright.ico'),auto; }
+/*评论*/
+#comments{ padding:20px 0; width:730px;}
+#comments .title{ border-bottom:1px solid #e5e5e5; padding:0 0 10px 25px; font-size:16px; color:#515567; margin-bottom:18px;}
+#comments .cList{ padding:0 20px;}
+#comments .cItem{ border-bottom:1px solid #f5f5f5; padding:0 0 16px 0; margin-bottom:16px; position:relative;}
+#comments .cItem:last-of-type{ margin:0;}
+#comments .cItem .faceBar{ width:34px; height:34px;}
+#comments .cItem .face{ width:34px; height:34px; border-radius:100%; overflow:hidden;}
+#comments .cItem .info{ overflow:hidden; padding:0 0 0 16px;}
+#comments .cItem .name{ display:block;font-size: smaller;}
+#comments .cItem .name,#comments .cItem .msg{ color:#362821;}
+#comments .cItem .msg{  padding-bottom:10px; width:100%; margin-bottom:0;font-size:15px; line-height:1.5;}
+#comments .cItem .time{ color:#999; float:left;}
+#comments .cItem .operate{ float:right; color:#999}
+#comments .cItem .operate a{ color:#999;}
+#comments .fa-good{ background:url(/img/frontend/less2/icon.png) no-repeat -40px -66px; width:13px; height:17px; display:inline-block; margin-right:3px; vertical-align:middle;}
+#comments .floor{ color:#999; padding-right:20px;}
+#comments .reply{ text-decoration:underline; margin-right:20px;}
+#comments .reply:hover{ color:#000 !important;}
+#comments .replyCon{ padding:15px 0 0 65px;}
+#comments .replyCon .info{ padding-left:25px;}
+#comments .replyCon .fl{ color:#362821;}
+#comments .replayForm{  padding:10px 0 0;}
+#comments .replayForm textarea{ height:48px; border:1px solid #e5e5e5; padding:5px; width:540px; float:left;}
+#comments .replayForm .btn{ float:right;display:block; width:75px; text-align:center; background-color: #55d89c; color:#fff; margin-top:4px;}
+/*评论框*/
+#cPost{ margin-bottom:16px;}
+#cPost .cText{ padding:10px; height:80px; width:100%; border:1px solid #e5e5e5; font-size:14px; line-height:1.5;}
+#cPost .cBtn{ background-color:#2cb07e; width:97px; height:30px; line-height:30px; text-align:center; border:0; border-radius:3px; color:#fff; float:right; margin:20px 0 0; cursor:pointer;}
+/*播放对话框*/
+.videoDialog{ width:340px; height:530px; background-color:#fff;}
+.videoDialog .list{ height:475px;}
+.videoDialog .input-wrap{ background-color:#ebe8e8; padding:10px;}
+.videoDialog .input-wrap .msg{ height:33px; line-height:33px; border:1px solid #d7d7d7; padding:0 10px; width:230px;}
+.videoDialog .input-wrap .enter{ background-color:#f44b46; width:60px; height:33px; line-height:33px; text-align:center; border-radius:5px; color:#fff;}
+.videoDialog .input-wrap .enter:hover{ background-color:#ea3a35; text-decoration:none;}
+.preview-container>.pic-preview{
+    line-height: 500px;
+    border: 1px solid #eee;
+}
+.preview-container>.pic-preview img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+.preview-container #iframe-pdf{
+    width:100%;
+    height:500px;
+}

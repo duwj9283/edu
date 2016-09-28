@@ -1,0 +1,88 @@
+/**/
+body{ font:14px/1.5 "Microsoft YaHei", "SimSun", "宋体";}
+ul,ol{ list-style: none;}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input { margin: 0; padding: 0; }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{ line-height: inherit;}
+.header {
+    padding-bottom: 10px;
+}
+.header a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #515567;
+    text-decoration: none;
+}
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
+.header-logo {
+    padding-top: 15px;
+}
+.header-navbar {
+    padding: 40px 0 0 40px;
+}
+.header-navbar li {
+    float: left;
+    margin-right: 10px;
+    font-size:15px;
+}
+.header-navbar li.active a {
+    color: #ff4141;
+}
+.header-loginbar{
+    padding-top: 45px;
+}
+.header-loginbar>li{
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.user-wrap{
+    padding-right: 25px;
+    background: url(/img/frontend/camtasiastudio/xl_ico.png) no-repeat right 8px;
+}
+.user-top-menu{
+    display: none;
+    position:absolute;
+    margin-top: 5px;
+    z-index: 9;
+    background-color: #fff;
+    border:1px solid #ddd;
+}
+.user-top-menu li{
+    height:30px;
+    line-height: 30px;
+}
+.user-top-menu li a{
+    display: block;
+    padding: 0 10px;
+}
+.user-top-menu li a:hover{
+    background-color: #eee;
+}
+.user-top-menu .set-out{
+    border-top: 1px solid #ddd;
+}
+.footer{
+    padding:20px 0;
+    box-shadow:0 -1px 3px 1px rgba(0,0,0,0.04)}
+.footer .copyright{
+    padding:20px 0;
+    min-height:70px;
+    color:#515567;
+    text-align: center;
+}
+.footer .copyright .p-2{
+    color: #999;
+}
+.container{
+    width:1170px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.ellipsis{overflow:hidden;text-overflow: ellipsis;white-space:nowrap;}
+/*当前位置*/
+.breadcrumbBar{ padding:12px 0; border-top:1px solid #f8f8f8;border-bottom:1px solid #f6f6f6; background-color:#fff;}
+.breadcrumb{ padding:0; background: none; margin: 0;}
+.breadcrumb,.breadcrumb a{ font-size:14px; color:#515567;}

@@ -1,0 +1,10 @@
+$(function(){
+    window.CONSTANTS={
+        'DEVELOPMENT':{
+            'ROOTAPTH':'http://192.168.1.200/api',
+            'SOCKETADDRESS':'http://192.168.1.200:3000',
+            'SERVERAPTH':'http://192.168.1.200/'
+        },
+        'ONLINE':{}
+    };
+});

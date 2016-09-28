@@ -1,0 +1,110 @@
+.container{ width:1210px; padding-left: 0; padding-right: 0;}
+body{font:14px/1.5 "Microsoft YaHei", "SimSun", "宋体"; color: #323232;}
+ul,ol{ list-style: none; margin:0; padding:0;}
+.h1, .h2, .h3, h1, h2, h3{ margin:0; padding;0; }
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #515567;
+    text-decoration: none;
+}
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
+dt{ font-weight: normal; }
+.content-wrap{ padding-bottom: 50px;}
+/*banner*/
+.banner-wrap{ min-height: 280px;}
+.banner-wrap .item,.banner-wrap .item:hover{ border: 0; box-shadow: none;}
+/*header*/
+.header-top{ padding:15px 0; background: #fff;}
+.logo{ display:block;}
+.logo>img{display: block;}
+.header-nav{height: 52px; background: #323232; color: #fff;line-height: 52px;}
+.header-nav .menu{ padding-left: 10px; }
+.header-nav .menu>li{ float: left; margin-left:-2px; font-size: 16px;}
+.header-nav .menu>li>a{ display: block; padding:0 20px; background:url(/img/frontend/web/nav-line.jpg) no-repeat left center; color: #fff; }
+.header-nav .menu>li>a:hover,.menu>li.nav-current>a{ position: relative; z-index: 2; background: #db2033; }
+.header-nav .nav-login>li{ float: right; margin-left: 20px; font-size: 14px;}
+.header-nav .nav-login>li>a{ color: #fff; }
+/*用户登录后*/
+.nav-user-info{ float: right; }
+.nav-user-info>a{ float: left; position: relative; }
+.nav-user-info>.icon>i{ position: absolute; top: 10px; right: 10px; width:5px; height: 5px;background: #f00;  border-radius: 100%;  }
+.nav-user-info>.icon-email{ background: url(/img/frontend/web/icon-email.png) no-repeat center; }
+.nav-user-info>.icon-msg{ background: url(/img/frontend/web/icon-msg.png) no-repeat center; }
+.nav-user-info .icon-arrow{ display: inline-block; width:12px; height: 7px; margin-left:10px; background:url(/img/frontend/web/icon-arrow.png) no-repeat center; }
+.nav-user-info>.icon{width:60px; height:52px; }
+.nav-user-info>.icon:hover,.nav-user-info .user-name:hover{ background-color: #222; }
+.nav-user-info .dropdown{ margin-left: 20px; }
+.nav-user-info .user-name{ display:block; padding:0 20px; color: #fff; }
+.ellipsis{overflow: hidden;text-overflow:ellipsis; white-space: nowrap;}
+
+/*文件类型*/
+.file-item .icon{ background-position: center; background-repeat: no-repeat; }
+.file-item .icon-text{ background-image: url(/img/frontend/web/text.png); }
+.file-item .icon-pdf{ background-image: url(/img/frontend/web/pdf.png);}
+.file-item .icon-mp3{ background-image: url(/img/frontend/web/mp3.png); }
+.file-item .icon-ppt{ background-image: url(/img/frontend/web/ppt.png); }
+.file-item .icon-word{ background-image: url(/img/frontend/web/word.png);}
+.file-item .icon-xls{ background-image: url(/img/frontend/web/xls.png); }
+.file-item .icon-rar{ background-image: url(/img/frontend/web/rar.png);}
+.file-item .icon-zip{ background-image: url(/img/frontend/web/zip.png);}
+.file-item .icon-xml{ background-image: url(/img/frontend/web/xml.png);}
+.file-item .icon-other{ background-image: url(/img/frontend/web/other.png);}
+/*footer*/
+.footer{
+	padding:28px 0 20px;
+	background: #e6e6e6; color: #126472; font-size: 12px;
+}
+.footer .logo{ display: block; margin:0 auto 40px; }
+.footer p{ margin-bottom: 0; }
+
+/*分页*/
+.page-wrap{ text-align: center; }
+.pagination>li>a, .pagination>li>span{}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{ background: #126472; border-color:#126472; }
+
+/*弹出登录*/
+#js-login-poper{ position: fixed; z-index: 99999; left: 0; top: 0; right: 0; bottom:0; background: rgba(0,0,0,0.4)}
+#login-frame{ position: fixed; width: 404px; height: 400px; top: 50%; left: 50%; margin: -200px 0 0 -202px; background: url(/img/frontend/web/login-bg.png) no-repeat 0 0;}
+#login-frame .form-wrap h2{ padding:40px 0 0; font-family: "Microsoft YaHei"; text-align:center; font-size: 20px; color:#126472;}
+#login-frame .form-wrap .form{ padding:40px 50px 0;}
+#login-frame .form-wrap .form input{ border:0; }
+#login-frame .form .form-group .field-input{position: relative; border: 1px solid #bbbaba ;background: #fff;}
+#login-frame .form .form-group .txt{width:100%; padding: 5px 5px 5px 45px; line-height: 24px;}
+#login-frame .form .icon{ position:absolute; left:0; top:0; display:block; width: 34px; height: 34px; background:#126472 url(/img/frontend/camtasiastudio/login-icon.png) no-repeat 6px 0;  border-right: 1px solid #bbbaba; vertical-align:top;}
+#login-frame .form .pw-icon{ background-position: 7px -70px; }
+#login-frame .form label{ color:#5e5e5e; font-weight: normal; }
+#login-frame .form .form-reg>a{ color: #f00;}
+#login-frame .btn{ width: 100%; background: #126472; color: #fff; padding: 10px 0;}
+#login-frame .close-login{ position: absolute; right: -16px; top: -16px; width: 32px; height: 32px; background: #fff; border-radius: 50%; line-height: 32px; text-align: center; color: #999; font-size: 12px; }
+
+/*没有内容显示样式*/
+.nothing{ margin-top: 60px; text-align: center; color: #999;}
+/*.content-wrap{ position: absolute; left: 0; right:0; min-height:calc(100% - 280px -107px - 131px)}*/
+/*返回顶部*/
+.to-top{ position: fixed; right: 0; bottom: 20px; width: 40px; height: 40px; background: #525568; text-align: center; line-height: 40px; color: #fff !important;}
+
+/*音频播放*/
+.jw-state-playing .jw-preview{
+    animation: 9.5s linear 0s normal none infinite rotate;
+    -webkit-animation:9.5s linear 0s normal none infinite rotate;
+}
+@-webkit-keyframes rotate{
+    from{-webkit-transform:rotate(0deg)}
+    to{-webkit-transform:rotate(360deg)}
+}
+@-moz-keyframes rotate{
+    from{-moz-transform:rotate(0deg)}
+    to{-moz-transform:rotate(360deg)}
+}
+@-ms-keyframes rotate{
+    from{-ms-transform:rotate(0deg)}
+    to{-ms-transform:rotate(360deg)}
+}
+@-o-keyframes rotate{
+    from{-o-transform:rotate(0deg)}
+    to{-o-transform:rotate(360deg)}
+}

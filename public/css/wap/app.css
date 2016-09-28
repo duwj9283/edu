@@ -1,0 +1,108 @@
+/*
+ *这是单独为hello mui准备的个性化css，可以覆盖标准mui的css定义；
+ * 在实际项目开发时，建议为App单独写一个css文件，从而实现项目的自定义皮肤功能；
+ *
+ * */
+.mui-plus.mui-android header.mui-bar{
+    display: none;
+}
+.mui-plus.mui-android .mui-bar-nav~.mui-content{
+    padding: 0;
+}
+
+/*hm开头的表示仅为 Hello MUI示例定义*/
+.hm-description{
+    margin: .5em 0;
+}
+
+.hm-description>li {
+    font-size: 14px;
+    color: #8f8f94;
+}
+
+@media (device-width:320px) {
+    #example-video{
+        width:320px !important;
+        height:180px !important;}
+    .mui-iframe-wrapper{
+        top: 224px;
+    }
+}
+
+@media (device-width:360px){
+    #example-video{
+        width:360px !important;
+        height:203px !important;}
+    .mui-content{
+        margin-top: 247px;
+    }
+}
+
+
+
+
+@media  (device-width: 375px)  {
+    #example-video{
+        width:375px !important;
+        height:211px !important;
+        margin:0;
+    }
+    .mui-content{
+        margin-top: 255px;
+    }
+}
+
+@media (device-width:411px){
+    #example-video{
+        width:411px !important;
+        height:232px !important;}
+    .mui-content{
+        margin-top: 276px;
+    }
+}
+
+@media (device-width : 414px) {
+
+    #example-video{
+        width:414px !important;
+        height:233px !important;}
+    .mui-content{
+        margin-top: 277px;
+    }
+}
+
+
+@media (device-width:435px){
+    #example-video{
+        width:435px !important;
+        height:245px !important;}
+    .container{
+        margin-top: 289px;
+    }
+}
+
+@media (device-width : 768px){
+    #example-video{
+        width:768px !important;
+        height:432px !important;}
+    .mui-content{
+        margin-top: 476px;
+    }
+}
+
+
+
+@media only screen and (device-width :1080px) {
+    #example-video{
+        width:1080px !important;
+        height:607px !important;}
+    .mui-content{
+        margin-top: 651px;
+    }
+}
+
+
+
+
+
+

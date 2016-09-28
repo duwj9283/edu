@@ -1,0 +1,223 @@
+.container_header:after,.container_header>.s_box:after,a.create_course:after,ul.detail_content:after,ul.detail_content li:after,li.info>.course_info_box:after,.btn_edit:after,.little_box.action_box:after{
+    content:'\200B';
+    display: block;
+    height:0;
+    clear: both;
+}
+.container_header>.bor_l_10{
+    height: 30px;
+    display: inline-block;
+    line-height: 31px;
+    border-left: 10px solid #55d89c;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.container_header>.cm_sel{
+    width:135px;
+    line-height: 32px;
+    padding: 5px 15px;
+    margin-left: 40px;
+    outline: none;
+}
+.container_header>.s_box{
+    width:200px;
+    height:32px;
+    padding: 0px 15px;
+    float: right;
+    margin-right: 20px;
+}
+
+.bor_1{
+    border:1px solid #d6d6d6;
+}
+.s_box>i{
+    display: inline-block;
+    width:30px;
+    height:22px;
+    background: url(/img/frontend/home/icons-2.png?v=2) 0px -170px no-repeat;
+    background-size:25px ;
+    margin-top: 3px;
+    margin-right: 20px;
+    float: left;
+}
+.s_box>input{
+    float: left;
+    width:110px;
+    height:27px;
+    border: 0;
+    outline: 0px;
+    line-height: 27px;
+}
+.container_header a.create_course{
+    height:32px;
+    line-height: 32px;
+    display: inline-block;
+    float: right;
+    margin-right: 80px;
+    color: #4690cf;
+    cursor: pointer;
+}
+.container_header a:hover,.container_header a:active,.container_header a:focus{
+    color: #4690cf;
+}
+.create_course>i{
+    display: inline-block;
+    width:22px;
+    height:22px;
+    margin: 5px;
+    background: url(/img/frontend/home/icons-2.png?v=2) 0px -126px no-repeat;
+    background-size:22px ;
+    float: left;
+}
+.create_course>span{
+    display: inline-block;
+    float: left;
+    text-decoration: underline;
+}
+.line{
+    height:1px;
+    background: #e5e5e5;
+    overflow: hidden;
+}
+.margin_top_20 {
+    margin-top: 20px;
+}
+.margin_top_10 {
+    margin-top: 10px;
+}
+ul.detail_content li{
+    width:390px;
+    float: left;
+    box-shadow: 2px 3px 2px #efefef;
+    margin-right:25px;
+    margin-bottom:20px;
+}
+li.info>.course_cover{
+    width:180px;
+    height:180px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px 0px 0px 3px;
+    float: left;
+}
+
+li.info>.course_cover>i{
+    display: inline-block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:71px;
+    height:71px;
+    margin-left: -35px;
+    margin-top: -35px;
+    background: url(/img/frontend/home/play02_ico.png?v=1) no-repeat;
+    background-size: 70px;
+}
+li.info>.course_info_box{
+    width:210px;
+    height:180px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #d6d6d6;
+    border-left: 0px;
+    border-radius:0px 3px 3px 0px ;
+    padding:10px;
+}
+.info>.course_info_box>.c_title{
+    width:100%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.course_info_box>div{
+    margin-bottom: 3px;
+}
+.yellow{
+    color:#f0694c;
+}
+.blue{
+    color:#6ea4e2;
+}
+.grey{
+    color:darkgrey;
+}
+.fz-24{
+    font-size: 24px;
+}
+.txt-r{
+    display: inline-block;
+    text-align: right;
+}
+.red-dot{
+    display: inline-block;
+    width:6px;
+    height: 6px;
+    background: red;
+    border-radius: 6px;
+}
+.little_box .red-dot{
+    margin:2px;
+}
+.little_box>.txt-r{
+    width:100%;
+    padding: 10px;
+}
+
+.little_box>.border_grey.btn_status{
+    border:1px solid darkgrey;
+}
+li.info span{
+    display: inline-block;
+}
+.little_box>.c_status{
+    width:40%;
+}
+.little_box>.c_time{
+    width:60%;
+}
+.little_box>.least_c_name{
+    font-size:smaller;
+}
+.small_font>span{
+    font-size: small;
+}
+.margin_r_30{
+    margin-right: 30px;
+}
+.margin_r_10{
+    margin-right: 10px;
+}
+.margin_r_5{
+    margin-right: 5px;
+}
+.under_line>label>span{
+    text-decoration: underline;
+}
+.little_box>.c_price{
+    font-size:16px;
+    text-decoration: underline;
+}
+.little_box>.btn_status{
+    border:1px solid #f0694c;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-weight: normal;
+    margin-left: 36%;
+    float: left;
+    cursor:pointer;
+}
+.little_box>.btn_edit{
+    margin-top: 4px;
+    margin-left: 5px;
+    font-weight: normal;
+    float: left;
+    cursor:pointer;
+}
+.little_box>.btn_edit>i{
+    display: inline-block;
+    width:19px;
+    height:19px;
+    background: url(/img/frontend/home/btn-b.png?v=2) -189px 0px no-repeat;
+    float: left;
+}

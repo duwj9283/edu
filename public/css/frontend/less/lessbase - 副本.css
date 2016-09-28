@@ -1,0 +1,2330 @@
+/*base.css*/
+@charset 'UTF-8';
+/***********************
+Date：2014-06-01
+BuilderVersion：v1.1.0
+CopyRight:iflytek_EUED
+***********************/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;
+    padding:0;
+}
+
+body{
+    -webkit-text-size-adjust: none;
+}
+input,select,textarea {
+    font-size:100%;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+th {
+    text-align:inherit;
+}
+fieldset,img {
+    border:none;
+}
+iframe {
+    display:block;
+}
+abbr,acronym {
+    border:none;
+    font-variant:normal;
+}
+del {
+    text-decoration:line-through;
+}
+address,caption,cite,code,dfn,em,th,var {
+    font-style:normal;
+    font-weight:500;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:500;
+}
+q:before,q:after {
+    content:'';
+}
+sub, sup {
+    font-size:75%;
+    line-height:0;
+    position:relative;
+    vertical-align:baseline;
+}
+sup {
+    top:-0.5em;
+}
+sub {
+    bottom:-0.25em;
+}
+ins,a {
+    text-decoration:none;
+}
+a:focus,*:focus {
+    outline:none;
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+    overflow:hidden;
+}
+.clearfix {
+    zoom:1;
+}
+.clear{
+    clear:both;
+    display:block;
+    overflow:hidden;
+    height:0;
+    line-height:0;
+    font-size:0;
+}
+.hide {
+    display:none!important;
+    visibility:hidden;
+}
+.block {
+    display:block!important;
+}
+.fl {
+    float:left;
+    display:inline;
+}
+.fr {
+    float:right;
+    display:inline;
+}
+.margin5{
+    margin-top: 5px;
+}
+.margin10{
+    margin-top: 10px;
+}
+.margin15{
+    margin-top: 15px;
+}
+.margin20{
+    margin-top: 20px;
+}
+.margin25{
+    margin-top: 25px;
+}
+.margin30{
+    margin-top: 30px;
+}
+.margin35{
+    margin-top: 35px;
+}
+.margin40{
+    margin-top: 40px;
+}
+.margin50{
+    margin-top: 50px;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-center{
+    text-align: center;
+}
+
+/*common.css*/
+
+.w1264,.w1060,.w1100,.w1020,.w1120{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1000px;
+    max-width:1240px;
+}
+.w1060{
+    max-width:1060px;
+}
+.w1100{
+    max-width:1100px;
+}
+.w1020{
+    max-width:1020px;
+}
+.w1120{
+    max-width: 1120px;
+}
+body{
+    font:12px "Microsoft YaHei",SimSun,tahoma,arial,sans-serif;
+    color:#515567;
+    line-height: 1.5;
+}
+a{
+    color: #515567;
+}
+.nav{
+    color:#333;
+    font-size:16px;
+    padding:75px 0 15px 50px;
+}
+.nav >a{
+    display: inline-block;
+    margin:0 10px;
+    color:#333;
+}
+.nav >a:hover,.nav >a.active{
+    color:#ff3636;
+}
+.logo{
+    margin-top: 15px;
+    margin-left:90px;
+}
+.header-login a,.header-login{
+    color:#333;
+    font-size:20px;
+}
+.header-login a{
+    display: inline-block;
+    margin:0 10px;
+}
+.header-login{
+    padding:70px 170px 0px 0 ;
+}
+.banner-img{
+    display: block;
+    background:url(/img/frontend/camtasiastudio/banner.jpg) no-repeat center top;
+    height:400px;
+}
+.position-relative{
+    position: relative;
+}
+.banner-text{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    text-align: center;
+}
+.search{
+    border-radius:10px;
+    width:370px;
+
+    background:#fff;
+    margin:256px auto 0;
+}
+.search>input{
+    width:280px;
+    padding:0 10px;
+    border-radius:10px 0 0 10px;
+    height:56px;
+    line-height:56px;
+    border:0 none;
+    color:#444;
+    font-size: 16px;
+}
+.search>button{
+    border:0 none;
+    height:56px;
+    width:56px;
+    background:url(/img/frontend/camtasiastudio/search_ico.jpg) no-repeat center center;
+    cursor: pointer;
+}
+.banner-link{
+    margin-top:30px;
+}
+.banner-link>a{
+    color:#fff;
+    font-size:14px;
+    margin:0 30px;
+}
+.banner-link>a:hover{
+    text-decoration: underline;
+}
+.w-01{
+    width:25%;
+}
+.w-02{
+    width:50%;
+}
+.con-infor-list{
+    width:1280px;
+    margin-left:-17px;
+    padding-top:40px;
+    font-size:14px;
+    color:#333;
+}
+.con-infor-list>li>div{
+    margin:0 17px;
+    border:1px solid #f2f2f2;
+    border-radius:6px;
+    box-shadow: 1px 1px 5px #f2f2f2 ;
+    height:300px;
+    overflow: hidden;
+}
+.con-infor-list>li{
+    margin-top: 25px;
+    float: left;
+}
+.con-infor-list>li a>img{
+    border:6px 6px 0 0;
+}
+.text-right{
+    text-align: right;
+}
+.padding20{
+    padding:20px;
+}
+.con-infor-text h4{
+    font-size:16px;
+    color:#65a1dd;
+    padding:20px 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.con-infor-text>p{
+    margin-top:15px;
+    height:138px;
+    overflow:hidden;
+    line-height: 2;
+}
+.con-infor-list>li h3{
+    font-size: 20px;
+    color:#65a1dd;
+    font-weight:bold;
+    margin-top: 5px;
+}
+.start>span{
+    display: inline-block;
+    background: url(/img/frontend/camtasiastudio/start_ico.png) no-repeat 0 0;
+    width:10px;
+    height:10px;
+    margin:0 3px;
+}
+.margin-top-10{
+    margin-top:10px;
+}
+.infor-detail{
+    padding:20px 10px 10px;
+}
+.infor-detail>span{
+    line-height: 32px;
+
+}
+.padding-top-10{
+    padding-top:10px;
+}
+.margin-f{
+    margin-top:-8px;
+}
+.infor-blcok02{
+    padding:0 10px 20px;
+    overflow: hidden;
+}
+.infor-detail a{
+    color:#333;
+}
+.text-ico,.dowload{
+    display: inline-block;
+    background: url(/img/frontend/camtasiastudio/flag_ico01.png) no-repeat 0 center;
+    padding-left:40px;
+}
+.dowload{
+    background-image: url(/img/frontend/camtasiastudio/flag_ico02.png) ;
+    padding-left:30px;
+    line-height: 32px;
+}
+.doc-box{
+    height: 230px;
+    width:208px;
+    margin:0 auto;
+    border-bottom:1px solid #e0e0e0;
+}
+.text-center{
+    text-align:center;
+}
+.doc-box>img{
+    margin-top:48px;
+}
+.doc-box p{
+    margin-top: 48px;
+    padding:0 20px
+}
+.doc-box p>span{
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width:100%;
+}
+.con-infor{
+    background:url(/img/frontend/camtasiastudio/bg.png) repeat-x left bottom #f7f7f7;
+    padding-bottom:48px;
+}
+.footer-img{
+    margin-left:218px;
+}
+.footer{
+    padding:50px 0 40px;
+}
+.footer-infor{
+    margin-left:135px;
+    margin-top:15px;
+}
+.footer-infor p{
+    color:#333;
+    line-height: 2;
+}
+.live-banner .banner-img{
+    background-image: url(/img/frontend/camtasiastudio/live_banner.jpg);
+}
+.control-tab-tit{
+    border-bottom:1px solid #ebebeb;
+}
+.control-tab-tit>span{
+    display:inline-block;
+    border:1px solid #7f9bb5;
+    background:#0d4374;
+    color:#fff;
+    padding:0 18px 0 36px;
+    cursor: pointer;
+}
+.control-tab-tit>span>span{
+    display:inline-block;
+    height:44px;
+    line-height: 46px;
+    background: url(/img/frontend/camtasiastudio/inner_ico.png) no-repeat right 18px;
+    padding-right:26px;
+}
+.control-tab-tit>span.selected>span{
+    background-position: right -40px;
+}
+.control-list>li{
+    font-size: 0;
+    margin-top:14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.control-list>li a{
+    font-size:13px;
+    color:#515567;
+    min-width: 126px;
+    height:28px;
+    line-height:28px;
+    background:#f1f1f1;
+    border:1px solid #f1f1f1;
+    display:inline-block;
+    margin:0 2px;
+    *margin:0 1px;
+}
+.control-list>li a:hover,.control-list>li a.active{
+    border:1px solid #7f9bb5;
+    background:#0d4374;
+    color:#fff;
+
+}
+.text-align-center{
+    text-align: center;
+}
+.live-list>li{
+    width:33.33%;
+    margin-top: 30px;
+}
+.live-list>li>div{
+    width:321px;
+    margin:0 auto;
+    height:320px;
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px #f2f2f2;
+}
+.live-list>li a{
+    display: block;
+}
+.live-img-box{
+    position: relative;
+    height: 254px;
+    width: 321px;
+}
+.live-img-box>img{
+    border-radius:6px 6px 0 0;
+}
+.live-img-box>b,.cam-img>a>b{
+    position: absolute;
+    background: #000;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+    left:0;
+    top:0;
+    border-radius:6px 6px 0 0;
+    width:100%;
+    height:100%;
+    display:block;
+    z-index: 100;
+}
+.live-img-box:hover>b{
+    display: none;
+}
+.static-ico{
+    display: block;
+    position: absolute;
+    right:0px;
+    top:0px;
+    width:125px;
+    height:125px;
+    background: url(/img/frontend/camtasiastudio/static_ico.png) no-repeat right 0;
+    z-index: 200;
+    border-radius: 0 6px 0 0;
+
+}
+.will-live{
+    background-position: right 0;
+}
+.having-live{
+    background-position: right -125px;
+}
+.has-live{
+    background-position: right -252px;
+}
+.live-tit{
+    color: #515567;;
+    font-size:14px;
+}
+.live-list .live-tit{
+    margin:10px 25px 5px;
+
+}
+.live-text{
+    padding:0 25px;
+}
+.page{
+    position: relative;
+    height:40px;
+}
+.page-list{
+    position: absolute;
+    left:50%;
+}
+.page-deatil{
+    position:relative ;
+    left:-50%;
+    line-height: 34px;
+    font-size: 14px;
+    min-width:560px;
+}
+.margin-top-60{
+    margin-top:60px ;
+}
+.page-deatil a{
+    display: inline-block;
+    font-size:14px;
+    color:#515567;
+    height: 34px;
+    line-height:34px;
+}
+.page-deatil>a{
+    border:1px solid #bbbaba;
+    padding:0 10px;
+}
+.page-deatil>a.gray{
+    color: #b2b2b2 !important;
+    border-color:#bbbaba !important;
+    background:#fff !important;
+}
+.page-deatil>a.page-next{
+    margin-left:10px;
+}
+.page-middle{
+    font-size:0;
+    margin-left:10px;
+}
+.page-middle>a{
+    width:34px;
+    text-align: center;
+    border:1px solid #bbbaba;
+    border-left:0 none;
+    *margin-left:-1px;
+}
+.page-middle>a:first-child{
+    border-left:1px solid #bbbaba;
+}
+.page-deatil a:hover,.page-deatil a.active{
+    background: #fd635b;
+    border-color: #fd635b;
+    color:#fff;
+}
+.page-deatil>span{
+    margin-left:10px;
+}
+.go-page>input{
+    height:34px;
+    line-height: 34px;
+    width:34px;
+    border:1px solid #bbbaba;
+    text-align: center;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+.go-page{
+    margin-left:10px;
+}
+.page-deatil button{
+    background: #fd635b;
+    border:1px solid  #fd635b;
+    height: 34px;
+    line-height: 34px;
+    padding:0 10px;
+    color:#fff;
+    margin-left:10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.page-deatil button:hover{
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+.activity-banner .banner-img{
+    background-image: url(/img/frontend/camtasiastudio/activity_banner.jpg);
+}
+.activity-infor-list>li{
+    width:25%;
+    float: left;
+}
+.activity-infor-list>li>div{
+    width:281px;
+    min-height: 340px;
+}
+.activity-infor-list .live-img-box{
+    width:281px;
+    height:128px;
+}
+.live-tit>span{
+    display: block;
+}
+.activity-text{
+    padding:0 15px;
+}
+.activity-infor-list .live-tit{
+    margin:10px 15px;
+}
+.inner-ico{
+    display: inline-block;
+    background: url(/img/frontend/camtasiastudio/inner_ico.png) no-repeat 0 0;
+}
+.time-ico{
+    background-position: 0 -106px;
+}
+.activity-text p>span{
+    line-height:31px;
+    padding-left:20px;
+}
+.loction-ico{
+    background-position: 0 -133px;
+}
+.activity-pk{
+    border-top:1px solid #e5e5e5;
+    margin:15px 10px 0;
+    padding:10px 20px 0;
+    line-height: 34px;
+}
+.line{
+    height: 1px;
+    background:#e5e5e5;
+    overflow: hidden;
+}
+.margin-top-40{
+    margin-top: 40px;
+}
+.cam-banner .banner-img{
+    background-image: url(/img/frontend/camtasiastudio/cam_banner.jpg);
+}
+.acm-infor .control-tab-tit>span{
+    background: #7a55d8;
+    border-color:#997de1;
+}
+.acm-infor .control-list>li a:hover,.acm-infor .control-list>li a.active{
+    background: #7a55d8;
+    border-color:#997de1;
+}
+.cam-list>li{
+    margin-top:30px;
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px #f2f2f2;
+    background:#fff;
+}
+.cam-img>a {
+    display: block;
+    position: relative;
+    height: 280px;
+    width:504px;
+}
+.cam-img>a b{
+
+}
+.cam-img>a>img{
+    border-radius: 6px 0 0 6px;
+}
+.cam-infor{
+    width:504px;
+    margin-left:40px;
+}
+.cam-img>a>b{
+    border-radius: 6px 0 0 6px;
+}
+.cam-img>a:hover>b{
+    display: none;
+}
+.cam-img>a>em{
+    display: block;
+    position: absolute;
+    left:50%;
+    top:50%;
+    background: url(/img/frontend/camtasiastudio/play_ico.png) no-repeat 0 0;
+    width:133px;
+    height: 133px;
+    margin-left:-56px;
+    margin-top:-56px;
+    z-index: 999;
+    cursor: pointer;
+}
+.cam-infor h3{
+    margin-top:40px;
+}
+.cam-infor h3 a{
+    font-size:14px;
+}
+.cam-infor{
+    font-size:12px;
+    color:#7f7f7e;
+}
+.cam-infor>p{
+    margin-top: 20px;
+    height: 148px;
+    overflow: hidden;
+}
+.cam-text>span{
+    margin-left:45px;
+}
+.breadcrumb-box{
+    border-bottom: 1px solid #EBEBEB;
+    background:#fff;
+}
+.breadcrumb{
+    padding:10px 0 10px 100px;
+}
+.voide-tit{
+    color:#666;
+    font-size:24px;
+    padding:20px;
+}
+.voide-infor{
+    width:1020px;
+    padding:40px;
+    margin-left:-40px;
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px #f2f2f2;
+}
+.voide-infor-text{
+    color:#666;
+    font-size:16px;
+    padding:30px 35px;
+}
+.voide-infor-text>p{
+    padding-left:40px;
+    margin-top:10px;
+}
+.live-img-box em{
+    display: block;
+    position: absolute;
+    left:50%;
+    top:50%;
+    width:71px;
+    height: 71px;
+    background:url(/img/frontend/camtasiastudio/play02_ico.png) no-repeat 0 0;
+    margin-left:-36px;
+    margin-top:-36px;
+    cursor: pointer;
+    z-index: 300;
+}
+.start>span{
+    margin-left:5px;
+}
+.activity-block{
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px #f2f2f2;
+    overflow: hidden;
+}
+.activity-del-text{
+    margin-left:34px;
+}
+.activity-del-text h2{
+    margin-top: 30px;
+    font-size: 24px;
+    color:#666;
+}
+.start{
+    margin-top:20px;
+}
+.activity-del-text .activity-text{
+    margin:20px 0;
+    padding:0;
+}
+.share-box >a{
+    color:#4f84f0;
+    margin-right:30px;
+    display: inline-block;
+    padding-left:24px;
+    line-height: 24px;
+}
+.share-ico{
+    background: url(/img/frontend/camtasiastudio/share_ico.png) no-repeat 0 center;
+}
+.pep-ico{
+    background-position: 0 center;
+}
+.pro-ico{
+    background-position: -132px center;
+}
+.shareTo-ico{
+    background-position: -262px  center;
+}
+.btn-bm {
+    display: inline-block;
+    background:url(/img/frontend/camtasiastudio/btn_tj.png) no-repeat 0 0;
+    width:215px;
+    height:58px;
+    text-align: center;
+    line-height: 58px;
+    color:#fff;
+    font-size:24px;
+}
+.btn-bm:hover{
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+.activity-del-text .btn-bm{
+    margin-top: 15px;
+}
+.activity-block>img{
+    border-radius: 6px 0 0 6px;;
+}
+.margin-top-30{
+    margin-top:30px;
+
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.activity-block01{
+    width:730px;
+}
+.actvity-tab>a{
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 10px;
+}
+.actvity-tab>a>b{
+    display: block;
+    position: absolute;
+    height:3px;
+    width:100%;
+    left:0;
+    bottom:0;
+    background:#55d89c;
+    display: none;
+}
+.actvity-tab>a.active b{
+    display: block;
+}
+.actvity-tab>a>span{
+    padding:0 24px;
+    font-size: 16px;
+}
+.actvity-tab-con{
+    padding: 0 30px;
+}
+.actvity-tab{
+    border-bottom: 1px solid #EBEBEB;
+}
+.activity-tab-text{
+    padding:20px;
+}
+.activity-tab-text img{
+    max-width:100%;
+    margin-top:20px;
+}
+.actve-tab-text01{
+    font-size: 18px;
+    margin-top: 50px;
+}
+.actve-tab-text01 p{
+    font-size:14px;
+}
+.actve-tab-text02>h3{
+    margin-top: 30px;
+
+}
+.actve-tab-text02 p>span{
+    display: block;
+    font-size:18px;
+    margin:25px 0 5px;
+}
+.activity-con-right{
+    width:350px;
+}
+.rang-tit{
+    font-size:24px;
+    color:#666;
+    padding-left:13px;
+    background:#4f84f0;
+    margin:15px 25px 0;
+}
+.rang-tit>span{
+    display:block;
+    background:#fff;
+    vertical-align: middle;
+    height:40px;
+    line-height: 40px;
+    padding-left:10px;
+}
+.rang-list{
+    padding:0 54px 25px;
+}
+.rang-list>li>img{
+    vertical-align: middle;
+    margin-right:20px;
+    border-radius: 25px;
+}
+.rang-list>li{
+    margin-top:25px;
+}
+.activity-block03 .activity-infor-list>li{
+    width:100%;
+    float:none;
+}
+.activity-block03{
+    padding-bottom: 20px;
+}
+.activity-block03 .live-list>li{
+    margin-top: 20px;
+}
+.activity-block03 .live-list>li{
+    height: 335px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.activity-tab-text{
+    line-height: 2;
+    font-size: 14px;
+}
+.rang-tit>span>span{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/***个人中心 开始***/
+.header-search{
+    background: url(/img/frontend/camtasiastudio/search_bg.png) no-repeat 0 0 ;
+    width:277px;
+    height:36px;
+}
+.header-search button{
+    background: url(/img/frontend/camtasiastudio/search.png) no-repeat 0 0;
+    width:18px;
+    height:19px;
+    vertical-align: middle;
+    border:0 none;
+    margin-left:60px;
+}
+.header-search input[type="text"]{
+    border:0 none;
+    width: 150px;
+    line-height: 36px;
+    height: 36px;
+    background: none;
+    color: #7f7f7f;
+}
+.header .header-search{
+    margin-top: 65px;
+    margin-left: 100px;
+}
+.person-beside{
+    width:200px;
+}
+.person-pic{
+    padding:15px 0 15px 30px;
+    background: #515567;
+}
+.pic-box{
+    position:relative;
+}
+.pic-box>b{
+    position: absolute;
+    left:0;
+    top:0px;
+    background: url(/img/frontend/camtasiastudio/grzx_img.png) no-repeat 0 0;
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.person-pic-text{
+    line-height:60px;
+    color:#fff;
+    font-size:15px;
+    margin-left:20px;
+}
+.beside-block>li{
+    margin-top:1px;
+}
+.beside-block>li>span,.beside-block>li>a{
+    display: block;
+    height:46px;
+    line-height:46px;
+    background:#f1f1f1;
+    color:#515567;
+}
+.leve01-ico{
+    display: inline-block;
+    background:url(/img/frontend/camtasiastudio/leve01_ico.png) no-repeat 0 0;
+    width:22px;
+    height:21px;
+    vertical-align: middle;
+}
+.beside-block>li{
+    cursor: pointer;
+
+}
+.beside-block>li>span>i,.beside-block>li>a>i{
+    margin:10px 30px 0;
+    float: left;
+}
+.beside-block>li>span>span,.beside-block>li>a>span{
+    display: block;
+    float:left;
+    width:60px;
+    padding-right:44px;
+    display: inline-block;
+}
+.beside-block>li>span>span{
+    background: url(/img/frontend/camtasiastudio/xl_ico.png) no-repeat right 19px;
+}
+.beside-block>li>span.active>span{
+    background-position: right -27px;
+}
+.file-ico{
+    background-position:0 0;
+}
+.class-ico{
+    background-position:0 -43px;
+}
+.live-ico{
+    background-position:0 -87px;
+}
+.mico-ico{
+    background-position:0 -136px;
+}
+.grounp-ico{
+    background-position:0 -180px;
+}
+.active-ico{
+    background-position:0 -324px;
+}
+.privateInfor-ico{
+    background-position:0 -381px;
+}
+.privateSpace-ico{
+    background-position:0 -429px;
+}
+.shareMan-ico{
+    background-position:0 -487px;
+}
+.recycleBin-ico{
+    background-position:0 -545px;
+}
+.Android-ico{
+    background-position:0 -600px;
+}
+.iPhone-ico{
+    background-position:0 -649px;
+}
+.iPad-ico{
+    background-position:0 -695px;
+}
+.signOut-ico{
+    background-position:0 -752px;
+}
+.beside-block>li:hover>a .file-ico{
+    background-position:-22px 0;
+}
+.beside-block>li:hover>a .class-ico{
+    background-position:-22px -43px;
+}
+.beside-block>li:hover>a .live-ico{
+    background-position:-22px -87px;
+}
+.beside-block>li:hover>a .mico-ico{
+    background-position:-22px -136px;
+}
+.beside-block>li:hover>a .grounp-ico{
+    background-position:-22px -180px;
+}
+.beside-block>li:hover>a .active-ico{
+    background-position:-22px -324px;
+}
+.beside-block>li:hover>a .privateInfor-ico{
+    background-position:-22px -381px;
+}
+.beside-block>li:hover>a .privateSpace-ico{
+    background-position:-22px -429px;
+}
+.beside-block>li:hover>a .shareMan-ico{
+    background-position:-22px -487px;
+}
+.beside-block>li:hover>a .recycleBin-ico{
+    background-position:-22px -545px;
+}
+.beside-block>li:hover>a .Android-ico{
+    background-position:-22px -600px;
+}
+.beside-block>li:hover>a .iPhone-ico{
+    background-position:-22px -649px;
+}
+.beside-block>li:hover>a .iPad-ico{
+    background-position:-22px -695px;
+}
+.beside-block>li:hover>a .signOut-ico{
+    background-position:-22px -752px;
+}
+.beside-block>li:hover>a{
+    color:#fff;
+    background:#aec4c5;
+}
+.beside-list>.beside-block{
+    padding-bottom:10px;
+}
+.leve02-ico{
+    background: url(/img/frontend/camtasiastudio/leve02_ico.png) no-repeat;
+    width:21px;
+    height: 21px;
+}
+.beside-inner-block>li>a>i{
+    margin:10px 10px 0 51px;
+}
+.createGrounp-ico{
+    background-position: 0 0;
+}
+.searchGrounp-ico{
+    background-position: 0 -46px;
+}
+.beside-inner-block>li:hover  .createGrounp-ico{
+    background-position: -21px 0;
+}
+.beside-inner-block>li:hover  .searchGrounp-ico{
+    background-position: -21px -46px;
+}
+.beside-inner-block{
+    display: none;
+}
+.person-con{
+    width:878px;
+}
+.per-info-tit>span{
+    height:30px;
+    display: inline-block;
+    line-height:31px;
+    border-left:10px solid #55d89c;
+    font-size:24px;
+    padding-left:5px;
+}
+.private-infor{
+    border:1px solid #efefef;
+    padding:0 68px 37px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #efefef;
+}
+.pri-tab{
+    padding:15px 0;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.pri-tab>span{
+    display: inline-block;
+    line-height:22px;
+    background:url(/img/frontend/camtasiastudio/tab_ico.png) no-repeat left -66px;
+    padding-left:25px;
+    margin:0 30px;
+    cursor: pointer;
+}
+.pri-tab>span.active{
+    background-position:0 0 ;
+}
+.margin-top-25{
+    margin-top:25px;
+}
+.private-infor h3{
+    font-size:14px;
+    margin-left:-20px;
+}
+.pri-list>li{
+    margin-top:15px;
+}
+.pri-list>li>label{
+    display: inline-block;
+    width:98px;
+    padding-left:30px;
+    line-height: 32px;
+}
+.pri-input,.input-name{
+    border-radius: 3px;
+    border:1px solid #ebebeb;
+    width:360px;
+    padding:0 5px;
+    height:38px;
+    line-height: 38px;
+}
+.input-name{
+    width:210px;
+    margin-left:37px;
+    margin-right:30px;
+    vertical-align: middle;
+    color:#e37b26;
+}
+.input-name[disabled]{
+    border-color: #fff;
+    background:#fff !important;
+}
+.pri-btn{
+    border:0 none;
+    height: 32px;
+    line-height:32px;
+    background: #55d89c;
+    color:#fff;
+    padding:0 20px;
+    border-radius: 3px;
+}
+.pri-btn:hover{
+    opacity: 0.8;
+    filter:alhpa(opacity=80);
+    cursor: pointer;
+}
+.pir-small-tit{
+    padding-left:25px;
+}
+.private-infor02{
+    background:#fff2f2;
+}
+.pri-btn02{
+    font-size:18px;
+    padding:0 38px;
+    height:38px;
+    line-height: 38px;
+}
+.priv-btn-grounp{
+    margin-top:45px;
+}
+select.pri-input{
+    width:370px;
+    box-shadow: 0 5px 8px #eee inset;
+}
+.mod-select{
+    border-radius: 3px;
+    width:138px;
+    border:1px solid #9d9d9d;
+    position: relative;
+}
+.mod-select>input[type="text"]{
+    border:0 none;
+    height:32px;
+    line-height:32px;
+    padding:0 5px;
+    width:96px;
+}
+.mod-select>span{
+    display: block;
+    width:30px;
+    height:15px;
+    background: url(/img/frontend/camtasiastudio/xl_ico.png) no-repeat 10px -68px #888;
+    position:absolute;
+    right:0px;
+    cursor: pointer;
+}
+.up-btn{
+    border-left:1px solid #babec1;
+    border-bottom: 1px solid #babec1;
+    border-radius: 0 3px 0 0;
+    top:0px;
+}
+.dow-btn{
+    border-left:1px solid #babec1;
+    border-top: 1px solid #babec1;
+    border-radius:0 0 3px 0;
+    bottom:0px;
+}
+.mod-select>span.dow-btn{
+    background-position: 10px  -83px;
+}
+.pri-list>li .mod-select{
+    margin-right:17px;
+}
+.person-table{
+    width:100%
+}
+.person-table th,.person-table td{
+    padding:5px 10px;
+}
+.person-table th{
+    color:#55d89c;
+}
+.pri-btn03{
+    height:26px;
+    line-height: 26px;
+}
+.share-tab>a{
+    font-size:16px;
+    padding-bottom: 10px;
+    position: relative;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+.share-tab>a.active b{
+    display: block;
+}
+.share-tab>a>b{
+    display: none;
+    height:3px;
+    background:#55d89c ;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+}
+.share-tab a>span{
+    padding:0 32px;
+    line-height:24px;
+    border-left:1px solid #333;
+}
+.share-tab a:first-child>span{
+    border-left:0 none
+}
+.share-tab{
+    border-bottom: 1px solid #ebebeb;
+}
+.person-index-block{
+    box-shadow: 1px 1px 1px #efefef;
+    border: 1px solid #efefef;
+    border-radius:3px;
+    background:#fff;
+}
+.person-index-block01{
+    padding:25px 60px;
+}
+.person-index-con{
+    background: #f7f7f7;
+}
+.person-index-text{
+    margin-left:50px;
+    width:664px;
+    margin-top:40px;
+}
+.person-name{
+
+    font-size:24px;
+}
+.person-name >span{
+    margin-left:35px;
+    display: inline-block;
+}
+.person-index-text p{
+    font-size: 14px;
+}
+.per-infor-text>span{
+    font-size: 18px;
+}
+.person-index-text>p{
+    margin-top:15px;
+}
+.person-index-text>p>span{
+    display: inline-block;
+    margin-right: 50px;
+}
+.share-btn{
+    color:#fff;
+    background:#fa9566;
+    border-radius:3px;
+    height:46px;
+    line-height: 49px;
+    padding:0 50px;
+    font-size:18px;
+    display: inline-block;
+    cursor: pointer;
+}
+.share-btn:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.share-btn.active{
+    opacity: 0.5 !important;
+    filter: alpha(opacity=50) !important;
+    cursor: text;
+}
+.share-btn-box{
+    margin-top:-5px;
+}
+.person-index-block02{
+    padding:0 10px 30px;
+    width:710px;
+
+}
+.per-info-tit02>span{
+    border-color:#fa9566;
+
+}
+.per-info-tit02{
+    padding-left:20px;
+    line-height: 30px;
+}
+.dt-list>a{
+    display: inline-block;
+    background:url(/img/frontend/camtasiastudio/dt_bg_nor.png) no-repeat 0 0;
+    width:89px;
+    height:89px;
+}
+.dt-list>a.active,.dt-list>a:hover{
+    background-image:url(/img/frontend/camtasiastudio/dt_bg.png) ;
+}
+.dt-list{
+    font-size: 0;
+    padding:0 20px;
+    margin-top: 20px;
+}
+.dt-list>a{
+    font-size:13px;
+    color:#fff;
+    margin:0 8px;
+
+}
+.dt-list>a:hover,.send-btn:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.dt-list>a>span{
+    display: block;
+    text-align: center;
+}
+.dt-list>a>i{
+    display:block;
+    width:32px;
+    height:34px;
+    margin:14px auto 0;
+}
+.dt-ico{
+    background: url(/img/frontend/camtasiastudio/dt_ico.png) no-repeat;
+}
+.dt-resource{
+    background-position:3px 0;
+}
+.dt-actiing{
+    background-position:-94px 0;
+}
+.dt-circle{
+    background-position:-190px 0;
+}
+.dt-living{
+    background-position:-286px 0;
+}
+.dt-mir{
+    background-position:-383px 0;
+}
+.dt-class{
+    background-position:-480px 0;
+}
+.dt-active{
+    background-position:-577px 0;
+}
+.dt-resource{
+    background-position:3px 0;
+}
+.dt-text{
+    margin-top:30px;
+    font-size: 18px;
+
+}
+.dt-text>span{
+    margin-right:15px;
+}
+.dt-text>span>span{
+    text-decoration: underline;
+}
+.dt-text>span>span:first-child{
+    color:#ec6941;
+}
+.dt-send-btn{
+    padding:0 15px 0 0;
+    margin-top:20px;
+}
+.send-btn{
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding:0 25px;
+    color:#fff;
+    background: #fa9566;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.td-list{
+    margin-left:120px;
+    border-left:5px solid #c8cac9;
+    padding-top:25px;
+    padding:25px 10px 25px 25px;
+}
+.td-list>li{
+    position: relative;
+}
+.td-list>li>label{
+    display: block;
+    position: absolute;
+    left:-150px;
+    background:url(/img/frontend/camtasiastudio/line.png) no-repeat right 10px ;
+    padding-right:27px;
+    text-align: right;
+    font-size:10px;
+    color:#7f7f7f;
+}
+.td-list>li>label>span{
+    display: block;
+}
+.td-list>li>b{
+    display: block;
+    position: absolute;
+    left:-36px;
+    top:0;
+    background: url(/img/frontend/camtasiastudio/tab_ico.png) no-repeat 0px -163px;
+    width:19px;
+    height: 19px;
+}
+.td-list>li>b.active{
+    background-position: 0 -141px;
+}
+.dt-list-img{
+    position: relative;
+}
+.dt-list-img>b{
+    display: block;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    background: url(/img/frontend/camtasiastudio/small_pic_bg.png) no-repeat 0 0;
+    z-index: 50;
+}
+.dt-list-img{
+    width:33px;
+    height:33px;
+    overflow: hidden;
+    margin-right:15px;
+}
+.dt-list-box{
+    border-bottom:1px solid #f5f5f5;
+    padding-bottom: 5px;
+}
+.dt-list-text h3{
+
+}
+.dt-detail-list>li{
+    border-bottom:1px solid #f5f5f5;
+    padding:10px 0 10px 60px;
+}
+.td-list{
+    color:#333;
+}
+.dt-list-text p{
+    margin-top:10px;
+    font-size:14px;
+}
+.dt-list-text .fj{
+    margin-top:10px;
+}
+.dt-list-text .fj >a{
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    background:url(/img/frontend/camtasiastudio/tab_ico.png) no-repeat 0 -188px ;
+    cursor: pointer;
+    margin-left:15px;
+}
+
+.dt-detail-list p{
+    font-size: 14px;
+}
+.td-static >h2{
+    color:#eb6100;
+    font-size:15px;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+    top:24px;
+    margin-left:15px;
+}
+.td-list>li .dt-text{
+    font-size:12px;
+    margin-top: 0;
+}
+.person-index-con{
+    padding-bottom: 30px;
+}
+.person-index-block03{
+    width:320px;
+    padding:0 10px;
+    overflow: hidden;
+}
+.fk-list>li>a{
+    display:block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+.fk-list>li>a>b{
+    position: absolute;
+    left:0;
+    top:0;
+    display: block;
+    background: url(/img/frontend/camtasiastudio/middle_pic_bg.png) no-repeat 0 0;
+}
+.fk-list>li span{
+    display: block;
+    text-align: center;
+    font-size:18px;
+    margin-top: 15px;
+}
+.fk-list>li{
+    margin:20px;
+}
+.fk-list{
+    padding-left:20px;
+}
+.widthauto.person-index-block02{
+    width:767px;
+    min-height: 685px;
+}
+.space-person-infor{
+    padding:30px 44px 0;
+}
+.space-person-infor .person-index-text{
+    width:394px;
+}
+.person_pic-box>span{
+    display: block;
+    font-size:18px;
+    margin-top:30px;
+    margin-right:25px;
+    text-align: center;
+}
+.space-person-infor  .person-index-text>p{
+    margin-top:20px;
+}
+.per-info-tit-blue>span{
+    border-color:#4f84f0;
+}
+.per-info-tit select.pri-input{
+    width:140px;
+    margin-left:40px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color:#666;
+    margin-top:3px;
+
+}
+.per-info-tit .header-search{
+    background: #fff;
+    border:1px solid #c7c7c7;
+    width:205px;
+    border-radius:3px;
+    box-shadow: 0 5px 8px #eee inset;
+    margin-right:30px;
+}
+.per-info-tit .header-search button{
+    margin-left:37px;
+}
+.per-info-tit .header-search input[type="text"]{
+    width:145px;
+    height: 30px;
+    line-height: 30px;
+}
+.per-info-tit .header-search{
+    height: 30px;
+}
+.fb-activity{
+    display: inline-block;
+    background:url(/img/frontend/camtasiastudio/tab_ico.png) no-repeat 0 -210px;
+    padding-left:30px;
+    color:#3686cb;
+    font-size:14px;
+    text-decoration: underline;
+    line-height: 30px;
+}
+.fb-activity:hover{
+    text-decoration: none;
+}
+.person-activity-list>li{
+    width:33.33%;
+}
+.person-activity-list>li>div{
+    width:260px;
+}
+.person-activity-list .live-img-box{
+    width:260px;
+}
+.person-activity-list .live-img-box>img{
+    width:260px;
+    height: 120px;
+}
+.pop-box{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.pop-bg{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background:#000;
+    opacity: 0.5;
+    filter:filter(opacity=50);
+    z-index:999;
+}
+.s-pop{
+    position: relative;
+    z-index: 9999;
+    width:100%;
+    height: 100%;
+}
+
+.pop-block{
+    position: absolute;
+    left:50%;
+    top:30%;
+    width:582px;
+    margin-left: -291px;
+    background:#fff;
+    border-radius: 3px;
+}
+.pop-header{
+    height: 42px;
+    line-height: 42px;
+    color:#fff;
+    background:#515567;
+    font-size:18px;
+    padding:0 15px 0 42px;
+    border-radius:3px
+}
+.pop-close{
+    display: block;
+    text-indent: -999em;
+    background: url(/img/frontend/camtasiastudio/tab_ico.png) no-repeat 0 -275px;
+    width:20px;
+    height:42px;
+}
+.pop-close:hover,.pop-btn:hover{
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+.padding-all-20{
+    padding:20px;
+}
+.pop-fb-infor{
+    font-size: 18px;
+    margin-top: 25px;
+    text-align: center;
+}
+.pop-btn{
+    border:0 none;
+    background:#4f84f0;
+    border-radius:6px;
+    height:48px;
+    line-height: 48px;
+    color:#fff;
+    padding:0 50px;
+    font-size:20px;
+}
+.pop-footer .pop-btn{
+    margin:0 50px;
+    cursor: pointer;
+}
+.blue-color{
+    color:#4f84f0;
+}
+.per-back{
+    line-height: 30px;
+    background: url(/img/frontend/camtasiastudio/tab_ico.png) no-repeat 0 -319px;
+    padding-left:20px;
+    font-size:16px;
+}
+.timt-input{
+    width:135px;
+    height:24px;
+    line-height: 24px;
+    padding:0 5px;
+    border-left:2px solid #9a9a9a;
+    border-top:2px solid #9a9a9a;
+    border-right: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    cursor: pointer;
+    color: #333;
+}
+.space-line{
+    width:38px;
+    height:28px;
+    background: url(/img/frontend/camtasiastudio/line.png) repeat-x 0 center;
+    margin:0 10px;
+}
+.chage-img-box{
+    position: relative;
+    cursor: pointer;
+}
+.chage-img-box>span{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width:100%;
+    height:42px;
+    line-height: 42px;
+}
+.chage-img-box>span>b{
+    position: relative;
+    width:100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+    filter:alpha(opacity=30);
+    display: block;
+}
+.chage-img-box>span>span{
+    position: relative;
+    height:100% ;
+    width:100%;
+    text-align: center;
+    font-size:14px;
+    color:#fff;
+    margin-top:-42px;
+    display: block;
+}
+.change-img-text{
+    margin-left:30px;
+    margin-top:136px;
+}
+.form-textare{
+    padding: 5px;
+    border:1px solid #e5e5e5;
+    width:470px;
+    min-height: 180px;
+    resize: none;
+}
+.textarea-notic{
+    display: inline-block;
+    margin:82px 15px 0;
+}
+.mod-radio>label{
+    line-height: 30px;
+    background: url(/img/frontend/camtasiastudio/tab_ico.png) no-repeat left -342px ;
+    display: inline-block;
+    height: 30px;
+    padding-left:10px;
+    cursor: pointer;
+
+}
+.pri-list .mod-radio{
+    margin-right: 38px;
+}
+.mod-radio>label>input[type="radio"]{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.mod-radio>label.active{
+    background-position: left -374px;
+}
+.mod-radio select,.mod-radio input[type="text"]{
+    height: 31px;
+    box-shadow: 0 5px 6px #eee inset;
+    height: 30px;
+    line-height: 30px;
+    width:140px;
+    border-radius: 3px;
+    border:1px solid #ebebeb;
+    margin-left:10px;
+}
+.mod-radio input[type="text"]{
+    width:80px;
+    box-shadow: 0 0px 6px #eee inset;
+}
+.grounp-block .person-index-text{
+    margin-left: 36px;
+    width:636px;
+}
+.person-index-text p.introduction{
+    height:92px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.follow-notic{
+    font-size: 18px;
+    line-height: 42px;
+}
+.orange-btn{
+    background: #fdb900;
+}
+.dt-member{
+    background-position:-690px 0;
+}
+.grounp-block .dt-list>a{
+    margin:0 10px;
+    background-image: url(/img/frontend/camtasiastudio/dt_bg02.png);
+    width:89px;
+    height: 89px;
+}
+.grounp-block  .dt-list{
+    margin-top: 30px;
+}
+.per-info-tit>label{
+    font-size: 18px;
+}
+.grounp-block .per-info-tit>span{
+    border-color:#feba01;
+}
+.min-height{
+    min-height:975px;
+}
+.margin-top-5{
+    margin-top:5px;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.grounp-search-box>span{
+    font-size:14px;
+    line-height: 40px;
+    display: inline-block;
+    padding:0  35px 0 10px;
+}
+.person-gounp-block{
+    padding:30px 40px;
+}
+.grounp-list>li{
+    padding:10px;
+}
+.grounp-list-text{
+    line-height: 41px;
+    margin-left:47px;
+    display: block;
+}
+#infor-overflow{
+    height:480px;
+    overflow: auto;
+}
+#infor-overflow02{
+    height:301px;
+    overflow: auto;
+}
+.grounp-list .dt-list-img{
+    width:41px;
+    height: 41px;
+}
+.grounp-list .dt-list-img>b{
+    background-image:url(/img/frontend/camtasiastudio/middle_pic_bg02.png)
+}
+.orange-btn{
+    background:#fdb900;
+}
+.create-grounp-text{
+    width:365px;
+    font-size:14px;
+    line-height: 32px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+.red{
+    color:red;
+
+}
+.slect-grounp-tit{
+    padding-left:92px;
+}
+.change-list-btn{
+    color:#3686cb;
+    font-size:13px;
+}
+.slect-grounp-tit .change-list-btn{
+    margin-left:20px;
+    line-height:38px;
+}
+.pop-body .grounp-list>li:hover{
+    background: #e6e6e6;
+}
+.pop-body .grounp-list li:hover .dt-list-img>b{
+    background-image: url(/img/frontend/camtasiastudio/middle_pic_bg02_hov.png);
+}
+.pop-body .grounp-list>li{
+    padding-left:154px;
+}
+.padding-tm-20{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.file-btn{
+    display: block;
+    background: url(/img/frontend/camtasiastudio/filte_btn.png) no-repeat 0 0 ;
+    width:21px;
+    height:21px;
+}
+.file-btn-box{
+    height: 21px;
+    width:21px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.file-btn-box>input[type="file"]{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    cursor: pointer;
+}
+.public-list{
+    width:450px;
+    margin:30px auto 0;
+}
+.public-list label{
+    font-size: 16px;
+    margin-right:10px;
+}
+.public-list textarea{
+    broder:1px solid #c7c7c7;
+    width:370px;
+    min-height: 90px;
+    resize:none;
+    padding:5px;
+    border-radius: 3px;
+    box-shadow: 0 5px 8px #eee inset;
+}
+.grounp-con{
+    background: #f7f7f7;
+}
+.grounp-con-list>li{
+    padding:20px  50px;
+    margin-top: 20px;
+    border:1px solid #efefef;
+    background:#fff;
+    margin-top:20px;
+}
+.grounp-con-list {
+    padding-bottom: 20px;
+}
+.grounp-con-list >li p,.grounp-con-list>li span{
+    line-height: 2.0;
+    color: #7f7f7f;
+}
+.grounp-con-list>li span.orange{
+    color:#eb6100;
+}
+.grounp-num>p{
+    margin-right:50px;
+}
+.grounp-con-list .dt-list-img{
+    width:88px;
+    height: 88px;
+
+}
+.grounp-con-list .dt-list-img>b{
+    background-image: url(/img/frontend/camtasiastudio/small_pic_bg03.png);
+}
+.per-info-tit03>span{
+    border-color: #fdb900;
+}
+.grounp-tab{
+    margin-left:166px;
+}
+.grounp-tab .dt-list-img{
+    width:25px;
+    height:25px;
+}
+.grounp-tab .dt-list-img>span{
+    background-image: url(/img/frontend/camtasiastudio/middle_pic_bg04.png);
+}
+.grounp-tab>li{
+    border:1px solid #e5e5e5;
+    border-bottom: 0 none;
+    border-radius: 3px 3px 0 0;
+    float: left;
+    padding: 7px;
+}
+.widthauto.grounp-block {
+    width:768px !important;
+}
+.widthauto.grounp-block .person-index-text{
+    width:338px;
+}
+.widthauto.grounp-block .dt-list>a{
+    margin:0 16px;
+}
+.widthauto.grounp-block .dt-list{
+    margin-top: 20px;
+}
+.grounp-tab-close{
+    display: block;
+    height: 100%;
+    height:25px;
+    width:25px;
+    background: url(/img/frontend/camtasiastudio/tab_ico.png) no-repeat 0 -473px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.priv-btn-grounp02{
+    margin-left:128px
+}
+.pri-list-radio .mod-radio>label.active{
+    background-position: left -408px;;
+}
+.dt-list02{
+    padding:0;
+}
+.pt-right-value{
+    margin-right: 40px;
+}
+
+.activity-infor-list02>li{
+    width:261px;
+    margin:30px 20px 0;
+}
+.activity-infor-list02{
+    padding-left:35px;
+}
+.space-class-list .cam-img img{
+    width:225px;
+    height:225px;
+}
+.space-class-list .cam-img>a{
+    width:225px;
+    height: 225px;
+}
+.space-class-list{
+    width: 628px;
+    margin:30px auto;
+}
+.space-class-list .cam-infor{
+    width:356px;
+    margin-left:16px;
+}
+.color-orange{
+    color:#ec6941;
+}
+.cam-infor>h2{
+    font-size:16px;
+    margin-top: 15px;
+}
+.cam-infor .dt-text{
+    font-size:14px;
+    margin-top:0px;
+}
+.gx-static{
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+.zj-text{
+    margin-top: 10px;
+    height: 34px;
+    overflow: hidden;
+}
+.chage-img-price{
+    text-decoration: underline;
+    font-size:19px;
+    margin-top:5px;
+}
+.static-btn{
+    border:1px solid #eb6100;
+    font-size:16px;
+    padding:0 20px;
+    border-radius: 3px;
+    color:#eb6100;
+    display: inline-block;
+    line-height:29px;
+}
+.static-gray-btn{
+    border-color:#a5a5a6;
+    color:#a5a5a6;
+}
+.camtasia-class-list{
+    padding:0 15px;
+}
+.camtasia-class-list .cam-img>a{
+    width:314px;
+    height: 174px;
+}
+.camtasia-class-list .cam-infor{
+    margin-left:25px;
+    width:380px;
+}
+.static-btn-box02 .static-btn{
+    height:20px;
+    line-height: 20px;
+    padding: 0 10px;
+    margin-right:10px;
+    margin-top: 12px;
+    font-size:14px;
+}
+.zj-text02{
+    margin-top:5px;
+}
+.zj-text02>span{
+    color:#333;
+}
+.live-list02>li{
+    width:321px;
+    margin:20px 20px 0;
+}
+.live-list02{
+    margin-left:20px;
+}
+.load-span{
+    display: inline-block;
+    padding-left:25px;
+    color:#3686cb;
+    font-size:12px;
+    height: 20px;
+    background: url(/img/frontend/camtasiastudio/tab_ico.png) no-repeat 0 -190px;
+    cursor: pointer;
+    margin:20px 45px 0 0;
+}
+.space-resource-dl>dt,.space-resource-dl>dd{
+    float: left;
+    min-height: 190px;
+    width:25%;
+    margin-top: 30px;
+}
+.space-resource-dl span,.space-resource-dl a{
+    display: block;
+    text-align: center;
+    line-height:24px;
+}
+.space-resource-dl   a{
+    position: relative;
+    margin-bottom: 10px;
+}
+.space-resource-dl a >b{
+    display:none;
+    background:url(/img/frontend/camtasiastudio/xz.png) no-repeat 0 0;
+    width:30px;
+    height: 30px;
+    left:50%;
+    top:-10px;
+    margin-left:-42px;
+    position: absolute;
+
+}
+.space-resource-dl a.active>b{
+    display: block;
+}
+.set-person-infor>li>label{
+    position: relative;
+    display: block;
+    padding-left:56px;
+    border:1px solid #c7c7c7;
+    border-radius: 3px;
+    padding-right:5px;
+
+}
+.set-person-infor>li{
+    margin-top: 20px;
+}
+.set-person-infor{
+    width:415px;
+    margin:50px auto 0;
+    overflow: hidden;
+}
+.set-person-infor>li>label>i{
+    position: absolute;
+    display: block;
+    left:20px;
+    top:14px;
+    height:26px;
+    width:30px;
+    border-right:1px solid #c7c7c7;
+
+}
+.set-person-infor>li>label input[type="text"],.set-person-infor>li>label input[type="password"]{
+    height:40px;
+    padding:6px 0 ;
+    width:100%;
+    line-height:40px;
+    vertical-align: middle;
+    display: block;
+    color:#a6a6a6;
+    border:0 none;
+    font-size: 14px;
+}
+.tab-ico{
+    background: url(/img/frontend/camtasiastudio/tab_ico.png) no-repeat 0 -527px  ;
+}
+.new-password .tab-ico{
+    background-position: 0 -568px;
+}
+.pri-btn{
+    display: inline-block;
+}
+.set-btn-box>span{
+    padding:0 66px;
+}
+.set-btn-box{
+    margin-top: 100px;
+}
+.new-dt-list{
+    padding: 0;
+}
+.new-dt-list>a{
+    margin:0 6px;
+}
+.camtasia-class-list.camtasia-index-list .cam-infor{
+    width:325px
+}
+.camtasia-class-list .cam-img>a>em,.space-class-list .cam-img>a>em{
+    background-image: url(/img/frontend/camtasiastudio/play_ico02.png);
+    width:71px;
+    height: 71px;
+    margin-left:-35px;
+    margin-top: -35px;
+}
+.new-live-list{
+    width:750px;
+    margin-left:-10px;
+}
+

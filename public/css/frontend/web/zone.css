@@ -1,0 +1,70 @@
+.zone-wrap{ padding-top: 183px; background: url(/img/frontend/web/user-zone-bg.jpg) no-repeat top center; }
+.zone-header{ position: relative; height:82px; padding:0 20px 0 196px; background: #424242; color: #fff; line-height: 82px; }
+.zone-header .user-face{ position: absolute; left: 29px; top: -90px; border:4px solid #fff; }
+.zone-header .user-name{ font-size: 24px; }
+.zone-header .user-num{ font-size: 16px; }
+.zone-header .user-num span{ margin-left: 20px; }
+.zone-header .follow { width:107px; height: 42px; padding:0; margin:20px 0 0 20px; background: #db2033; cursor: pointer; text-align: center; line-height: 42px; color: #fff; }
+.zone-header .follow:hover{ background:#e42940; }
+.zone-header .un-follow{ background-color: #D3D4D3;}
+.zone-content{ padding:50px 24px 0; background: #fff; }
+.zone-content .nothing{  margin-top: 10px;}
+.zone-content .title{ border-bottom: 1px solid #bfbfbf; }
+.zone-content .title>ul>li{ float: left; margin-right: 10px; padding:0 5px; font-size:18px; line-height:50px; cursor:pointer;}
+.zone-content .title>ul>li.active{ position: relative; margin-bottom: -2px; border-bottom: 4px solid #db2033;color: #db2033;  font-size: 24px;}
+.zone-content .content{ float: left; width:730px; padding-right: 20px; padding-top: 20px; border-right: 1px solid #bfbfbf; }
+.zone-content .sidebar{ float: right; width:410px; padding-top: 24px; }
+.zone-content .content .row{ margin-left:-13px; margin-right: -13px; }
+.zone-content .content .row .col-sm-3{ padding-right: 13px; padding-left:13px; }
+.zone-content .content>h2{ padding:20px 0 15px 10px; font-size: 18px; }
+.item{ height: 214px; margin-bottom: 26px; background: #f4f4f4; border-radius: 5px; }
+.item .item-tit>a{ color: #515567; }
+.item .item-b{ padding:0 14px; color: #7f7f7f; font-size: 12px; }
+.item .item-pic{ position:relative; height: 120px; }
+.item .item-pic>img{display:block; margin: 0 auto; width:auto; height: auto; max-height: 100%; max-width: 100%;}
+.item .item-tit{padding:20px 14px 10px; line-height: 24px; font-size: 16px; }
+.item .item-tit .tit{overflow: hidden; white-space: nowrap; }
+.item .item-tit .subject{ font-size: 12px; color: #7f7f7f; }
+/*直播*/
+.live-item .icon{position: absolute; right:0; top:0; z-index: 2; display: block; width:113px; height: 112px; background-origin: no-repeat; background-position: 0 0;}
+.live-item .icon-wait{ background-image: url(/img/frontend/web/icon-wait.png); }
+.live-item .icon-ing{ background-image: url(/img/frontend/web/icon-ing.png); }
+.live-item .icon-end{ background-image: url(/img/frontend/web/icon-end.png); }
+/*资源*/
+.file-item .icon{ width:80%; height:123px; border-bottom:1px solid #e0e0e0; margin:0 auto; background-position: center; background-repeat: no-repeat; }
+.file-item .icon-text{ background-image: url(/img/frontend/web/text.png); }
+.file-item .icon-play{position: absolute; left:50%; top:50%; margin:-36px 0 0 -36px; z-index: 2;  width:72px; height:72px; background:url(/img/frontend/web/icon-play.png) no-repeat center;}
+/*微课*/
+.mico-item .icon-play{position: absolute; left:50%; top:50%; margin:-36px 0 0 -36px; z-index: 2;  width:72px; height:72px; background:url(/img/frontend/web/icon-play.png) no-repeat center;}
+/*课程*/
+.course-item{  }
+/*文章*/
+.news-item{ height: auto; padding:10px 24px; }
+.news-item>h2{ padding: 10px 0; font-size: 16px;}
+/*右侧*/
+.user-info{ padding:26px 36px; background: #e6e6e6; }
+.user-info .top{ padding-bottom: 16px; border-bottom: 1px solid #fff; }
+.user-info .top>.info{ overflow:hidden; padding:10px 0 0 10px; }
+.user-info .top>.info>h2{ padding-bottom: 10px; font-size: 18px; }
+.user-info .top>.info>p{ font-size: 16px; }
+.user-info .top>.info .btn-msg{ float: right; border:2px solid #db2033; color: #db2033; }
+.user-info dl{ padding:10px; font-size: 16px;}
+.user-info dl>dt{ margin-bottom:20px; }
+.user-info dl>dd{ line-height: 1.6; }
+.user-info dl>dd:first-of-type{ margin-bottom:20px; font-size:14px; color: #424242;}
+/*个人动态*/
+.dongtai{ padding:20px 0;}
+.dongtai>h3{ padding-bottom: 20px; color: #eb6100; font-size: 16px;}
+.dongtai>ul{ padding-left: 20px; border-left: 1px solid #c8cac9;}
+.dongtai>ul>li{ position: relative; margin: 10px 0; border-bottom: 1px solid #f5f5f5;}
+.dongtai>ul>li:before{ display: block; position: absolute; left: -24px; top: 20px;content: ''; width: 6px; height: 6px; background-color: #fff; border: 1px solid #a7e068; border-radius: 50%; }
+.dongtai>ul>li ul>li{ padding: 10px 0; border-top:1px solid #f5f5f5; font-size: 12px;}
+.dongtai .bot{ padding: 10px 0; font-size: 12px;}
+.dongtai .bot a{display:inline-block; vertical-align:middle; text-decoration:underline; color: #999;}
+.dongtai .date{ color: #999; font-size: 12px;}
+.dongtai .reply{ }
+.dongtai .open{width:25px;overflow: hidden; white-space: nowrap; text-indent:-100%; }
+.dongtai .open.collapsed{ text-indent: 0;}
+.dongtai .replay-box{ padding-top: 5px;}
+.dongtai .replay-box>textarea{ border-color: #ddd; resize: none;}
+.dongtai .replay-box>.btn{ border-color:#ddd; margin-top: 5px;}
